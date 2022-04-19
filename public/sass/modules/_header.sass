@@ -1,1 +1,52 @@
 @import "_variables.sass"
+$bg-secondaire : #1A1A1D
+$bg-primaire : #334D5C
+$bg-entre : #EAE3D6
+$bg-footer : #393A3B
+$btn-primaire : #334D5C
+.container
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px
+    padding: 0px !important
+.bg-secondaire
+    background-color: $bg-secondaire
+.nav_h
+    height: 200px
+.bg-primaire
+    background-color: $bg-primaire
+.bg-entre
+    background-color: $bg-entre
+    height: 100%
+    padding: 50px 0px 
+.bg-entre-max
+    background-color: $bg-entre
+    height: 100%
+    padding: 100px 0px
+.bg-footer
+    background-color: $bg-footer
+.btn-primaire
+    background-color: $btn-primaire
+    border: none
+    width: 350px
+    height: 100px
+.section1
+    height: 100%
+    padding: 20px 0px
+.placeimg
+    width: 250px
+.placetxt
+    width: 550px
+.centragefooter
+    width: 60px
+@media (min-width:320px) and (max-width:992px)
+    nav
+        img
+            display: none
+    .nav_h
+        height: 250px
+    .section1
+        text-align: center
+    .centrage_txt
+        text-align: center
+    .placetxt
+        font-size: 0,8em
+        width: 100%
